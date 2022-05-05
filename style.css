@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Slab:wght@700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+.logo {
+  width: 2rem;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  background: black;
+  color: white;
+  justify-content: center;
+}
+.lists-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2rem;
+  list-style: none;
+}
+.lists-item li a {
+  margin: 2rem;
+  font-weight: bolder;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  transition: color 0.5s;
+}
+.lists-item li a:hover {
+  color: #db36a4;
+}
+
+/* container part */
+
+body {
+  height: 100vh;
+  /* width:100vw; */
+  /* background-image: linear-gradient(to left bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border:2px solid red; *
+      background: #141e30; /* fallback for old browsers */
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+}
+#header-logo {
+  width: 180px;
+  border-radius: 100px;
+}
+h3 {
+  color: white;
+}
+#main-heading {
+  color: white;
+}
+#header-des {
+  color: white;
+}
+
+/* main section */
+.song-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 2rem;
+  /* border: 2px solid red; */
+  /* background-color: black; */
+  color: white;
+}
+.song-container:hover {
+  background-color: grey;
+}
+.img {
+  width: 80px;
+  border-radius: 100px;
+}
+.des {
+  width: 200px;
+  padding: 1rem;
+  /* border: 2px solid red; */
+}
+.img-con {
+  /* border:2px solid red; */
+}
+
+/* bottom functionality */
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border:2px solid red; */
+  margin-top: 2rem;
+  background-color: grey;
+}
+
+.btn {
+  margin: 2rem;
+}
+.btn:hover {
+  cursor: pointer;
+  
+}
+#play {
+  border: 2px solid black;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+}
+#prev {
+  width: 2rem;
+  background-color: grey;
+  border-style: none;
+}
+#next {
+  width: 2rem;
+  background-color: grey;
+  border-style: none;
+}
+.au {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border:2px solid red; */
+  background-color: grey;
+}
+.au audio {
+  width: 400px;
+  border-radius: 25px;
+  /* height:500px; */
+  /* height:10; */
+}
+
+/* uti */
+.de {
+  box-shadow: inset 26px 28px 17px 5px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 25px;
+  color: black;
+}
+.ani {
+  animation: rotate 3s linear infinite;
+  animation-play-state: play;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
